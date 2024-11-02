@@ -1,5 +1,5 @@
 # Landing Page- Vyse Valorant
-![](./img/screenshot/screenshotdbd)
+![](./img/screenshot/screenshotdbd.png)
 
 # Sobre
 Site tipo landing page para divulgar a nova agente jogo Valorant.
