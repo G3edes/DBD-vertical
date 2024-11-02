@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+#logo{
+    width: 15vh;
+    left: 2%;
+    top: -7%;
+    display: flex;
+    position: absolute;
+}
+header .div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+header nav ul{
+    justify-content: end;
+    display: flex;
+    position: relative;
+    padding: 2vh;
+    align-items: center;
+}
+header nav a{
+    color:white ;
+    transition: 1s;
+    padding: 2vh;
+    
+}
+header nav a:hover{
+    background-color: white;
+    border-radius:10px;
+    color: black;
+}
+.grupo{
+    height: 100vh;
+
+}
+#inicial{
+    background-color: red;
+    width: 100%;
+    background-image: url(./img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sobre{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.informacao{
+    width: 50%;
+    height: 100%;
+    padding: 10vh;
+}
+.informacao span{
+    font-size: 7vh;
+    color:white;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.informacao h2{
+    padding-top: 10vh;
+    font-size: 4vh;
+    color: white;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.foto{
+    width: 50%;
+    height: 100%;
+}
+#gameplay{
+    height: 90vh;
+    width: 90vh;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+    padding-right: 4vh;
+}
+#sobreviventes{
+    background-color: black;
+    background-image:url(./img/sobreviventes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 8vh;
+}
+.title span{
+    color: white;
+    font-size: 7vh;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#foto3{
+    height: 47.4vh;
+    width: 47.4vh;
+}
+.imagens{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#sobreviventes h2{
+    font-size: 2.5vh;
+    color: white;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 20vh;
+    width: 90%;
+    text-align: center;
+    padding-top: 7vh;
+    padding-left: 20vh;
+}
+#killers{
+    background-image: url(./img/killers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+.titlekiller{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 8vh;
+}
+.titlekiller span{
+    font-size: 7vh;
+    color:white;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+}
+.infokiller{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-left: 12vh;
+}
+.infokiller h2{
+    font-size: 3.5vh;
+    color: white;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.killersfoto{
+    width: 50%;
+    height: 100%;
+}
+#killerfoto{
+    height: 70vh;
+    width: 70vh;
+    padding-left: 10vh;
+}
+.meio{
+    display: flex;
+
+}
+#perks{
+    background-image: url(./img/perks.png);
+
+}
+.titleperks{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleperks span{
+    font-size: 7vh;
+    color: white;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bodyperks{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    width: 90vh;
+    height: 21vh;
+    background-color: black;
+    border: 10px;
+    text-align: center;
+}
+.description h2{
+    font-size: 2.5vh;
+    color: white;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
